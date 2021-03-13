@@ -9,7 +9,7 @@ if(isempty(givenFileName) || isempty(givenFilePath))
     [filename path] = uigetfile(file_type, msg);
 else
     filename = givenFileName;
-    path = [givenFilePath '\'];
+    path = [givenFilePath '/'];
 end
 
 if(path == 0)
