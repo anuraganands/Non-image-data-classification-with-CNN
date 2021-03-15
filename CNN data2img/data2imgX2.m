@@ -15,7 +15,7 @@ clear all;
 clc;    
 close all;
 
-dirExp = uigetdir(pwd, 'Select the folder containing data files');
+dirExp = '/Users/scchess/Sources/Non-image-data-classification-with-CNN/Data' %uigetdir(pwd, 'Select the folder containing data files');
 filesExp = dir(fullfile(dirExp, '*.data'));
 totalExpFiles = size(filesExp,1);
 
@@ -32,12 +32,12 @@ for ff = 1:totalExpFiles
 
     file_used
     dataFolder = [dirExp '\Alg2_' file_used];   
-    if exist(dataFolder, 'dir')
-        warning (['Output folder [' dataFolder '] already exists']);
-        return
-    else
-        mkdir(dataFolder);
-    end   
+  %  if exist(dataFolder, 'dir')
+   %    warning (['Output folder [' dataFolder '] already exists']);
+    %    return
+    %else
+     %   mkdir(dataFolder);
+    %end   
     labels = unique(y);
 
     for l = labels

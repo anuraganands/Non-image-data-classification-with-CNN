@@ -16,7 +16,7 @@ clear all;
 clc;    
 close all;
 
-dirExp = uigetdir(pwd, 'Select the folder containing data files');
+dirExp = '/Users/scchess/Sources/Non-image-data-classification-with-CNN/Data' %uigetdir(pwd, 'Select the folder containing data files');
 filesExp = dir(fullfile(dirExp, '*.data'));
 totalExpFiles = size(filesExp,1);
 
