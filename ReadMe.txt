@@ -7,7 +7,9 @@ Algorithm 1: Equidistant Bar Graph (Run data2imgX1.m)
 Algorithm 2: Normalized Distance Matrix (Run data2imgX2.m)
 Algorithm 3: combination of Normalized Distance Matrix and Equidistant Bar Graph algorithm (Run data2imgX3.m) 
 
-These algorithms have been proposed by Anuraganand Sharma in the preprints:
+These algorithms have been proposed by Anuraganand Sharma in:
+Sharma, A., Kumar, D. Classification with 2-D convolutional neural networks for breast cancer diagnosis. Sci Rep 12, Nature, 21857 (2022).
+and in the preprints:
 version 1: A. Sharma and D. Kumar, Non-image Data Classification with Convolutional Neural Networks. 
 version 2: A. Sharma and D. Kumar, Classification with 2-D Convolutional Neural Networks for breast cancer diagnosis.
 
